@@ -1,0 +1,123 @@
+.text-success, #present{
+    animation: movedown 1s linear 1;
+}
+@keyframes movedown{
+    0%{
+        transform: translateY(-200px);
+    }
+    100%{
+        transform: translateY(0);
+    }
+}
+#present1{
+    animation: moveright 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes moveright{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+.home-img{
+    animation: zoom 1s linear 1;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes zoom{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+.about{
+    animation: about 1s linear 1;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes about{
+    0%{
+        transform: translateX(100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+.services{
+    animation: service 1s linear 1;
+    animation-delay: 4s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes service{
+    0%{
+        transform: translateX(-100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+.realisation{
+    animation: realise 1s linear 1;
+    animation-delay: 5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes realise{
+    0%{
+        transform: translateX(100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+.freelancer-available{
+    animation: freelance 1s linear 1;
+    animation-delay: 5s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes freelance{
+    0%{
+        transform: scale(0.5);
+        visibility: visible;
+    }
+    100%{
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+.contact-item .footer{
+    animation: service 1s linear 1;
+    animation-delay: 6s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes service{
+    0%{
+        transform: translateY(100px);
+        visibility: visible;
+    }
+    100%{
+        transform: translateY(0);
+        visibility: visible;
+    }
+}
